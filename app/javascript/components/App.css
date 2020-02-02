@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background: #f57011;
+  background: darkseagreen;
   height: 60px;
 }
 
@@ -31,9 +31,6 @@ header h1, header h1 a{
   text-decoration: none;
 }
 
-header h1 a:hover {
-  text-decoration: underline;
-}
 
 .grid {
   display: grid;
@@ -67,22 +64,11 @@ header h1 a:hover {
   background: #f8e5ce;
 }
 
-.eventList a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  border-bottom: 1px solid #dddddd;
-  padding: 8px 6px 10px;
-  outline: 0;
-}
 
 .eventList h2 > a {
-  color: #236fff;
   font-size: 15px;
   float: right;
   font-weight: normal;
-  border-bottom: none;
-  padding: 0px;
 }
 
 .eventForm {
@@ -142,33 +128,12 @@ button[type="submit"] {
   font-weight: 0.9;
 }
 
-button.delete {
-  background: none !important;
-  border: none;
-  padding: 0 !important;
-  margin-left: 10px;
-  cursor: pointer;
-  color: #236fff;
-  font-size: 15px;
-  font-weight: normal;
-  margin: 3px 0 0 0;
-  text-decoration: none;
-}
-
-button.delete:hover {
-  text-decoration: underline;
-}
-
 h2 a {
   color: #236fff;
   font-size: 15px;
   font-weight: normal;
   margin: 3px 12px 0 12px;
   text-decoration: none;
-}
-
-h2 a:hover {
-  text-decoration: underline;
 }
 
 .form-actions a {
@@ -178,12 +143,50 @@ h2 a:hover {
   text-decoration: none;
 }
 
-.form-actions a:hover {
-  text-decoration: underline;
-}
-
 input.search {
   width: 92%;
   margin: 15px 2px;
   padding: 4px 0 6px 6px;
+}
+
+.new-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px !important;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px
+}
+
+.edit-button {
+  background-color: darkorange;
+  border: none;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 12px;
+  cursor: pointer;
+  border-radius: 5px
+}
+
+.delete-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px;
+  cursor: pointer;
+  border-radius: 5px
 }

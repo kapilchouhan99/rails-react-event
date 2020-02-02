@@ -50,7 +50,7 @@ class EventList extends React.Component {
       <section className="eventList">
         <h2>
           Events
-          <Link to="/events/new">New Event</Link>
+          <Link to="/events/new" className="new-button">New Event</Link>
         </h2>
         <input
           className="search"
